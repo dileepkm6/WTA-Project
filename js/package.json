@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "no desc",
+  "main": "test-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dileep",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "require": "^2.4.20",
+    "ws": "^3.2.0"
+  }
+}

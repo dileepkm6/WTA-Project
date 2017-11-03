@@ -1,0 +1,57 @@
+ body { 
+         background: #eee; 
+         padding: 5% 0; 
+      } 
+                
+      video { 
+         background: black; 
+         border: 1px solid gray; 
+      }
+                
+      .call-page { 
+         position: relative; 
+         display: block; 
+         margin: 0 auto auto 0; 
+         width: 500px; 
+         height: 500px; 
+      } 
+                
+      #localVideo { 
+         width: 150px; 
+         height: 150px; 
+         position: absolute; 
+         top: 15px; 
+         right: 15px; 
+      }
+#remoteVideo
+{
+   width: 500px;
+   height: 500px;
+   border:1px solid #73AD21; 
+   border-radius: 10px;
+}
+
+#messageBox {
+    height:500px;
+    width:500px;
+    overflow:auto;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    
+}
+#inputBox {
+    margin-left: 205px;
+    width: 500px;    
+}
+#text{
+   width: 400px;
+   border-radius: 5px;
+}
+
+.floating-box {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+   
+}
